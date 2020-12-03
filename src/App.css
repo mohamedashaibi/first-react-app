@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./ok.jpg')!important;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+
+#login-form{
+  background: #cccccc;
+  width: 500px;
+  padding: 40px;
+  margin:0 auto;
+  box-shadow: 0px 0px 30px 0px grey;
+  border-radius: 20px;
+}
+input::placeholder{
+  text-align: center;
+}
+input, button{
+  text-align:center;
+  width:100%;
+}
